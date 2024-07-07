@@ -60,3 +60,25 @@ h6{
     margin-top: 0px;
     font-weight: 400
 }
+
+/* Responsive design */
+@media (max-width: 375px) {
+    .rectangle-container {
+        width: 90%; /* Adjust width for mobile */
+        height: auto; /* Adjust height for mobile */
+    }
+
+    .qr-image {
+        width: 80%; /* Adjust image width for mobile */
+        height: auto; /* Adjust image height for mobile */
+    }
+
+    .text-container {
+        width: 90%; /* Adjust text container width for mobile */
+    }
+
+    h1, h6 {
+        width: 100%; /* Adjust text width for mobile */
+        font-size: 90%; /* Adjust font size for mobile */
+    }
+}
