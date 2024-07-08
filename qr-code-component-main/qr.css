@@ -82,3 +82,10 @@ h6{
         font-size: 90%; /* Adjust font size for mobile */
     }
 }
+
+@media (max-width: 203px) {
+    h1, h6 {
+        width: 100%; /* Adjust text width for mobile */
+        font-size: 10px; /* Adjust font size for mobile */
+    }
+}
